@@ -1,4 +1,4 @@
-# week-one-sq006
+# week-one-sq007
 
 ## Problem Description:
 
