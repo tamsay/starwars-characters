@@ -82,6 +82,12 @@ h1,h2,h3,h4,h5{
     .details-wrapper{
         display: none;
     }
+
+    .modal .modal-body{
+        justify-content: center;
+        align-items: center;
+        padding: 0rem;
+    }
 }
 
 @media all and (min-width:600px){
