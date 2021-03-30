@@ -88,6 +88,23 @@ h1,h2,h3,h4,h5{
         align-items: center;
         padding: 0rem;
     }
+    .modal-body #detailsDiv{
+        margin: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal-body #detailsDiv .flex-row{
+        align-items: center;
+    }
+    .modal-body #detailsDiv .item-tag{
+        margin-right: 1rem;
+        font-size: 1.25rem;
+    }
+    .modal-body #detailsDiv .value-span{
+        font-size: 1.5rem;
+    }
 }
 
 @media all and (min-width:600px){

@@ -29,7 +29,7 @@ let displayDetailedInfo = (name, gender, height, image) =>{
         modalBody.innerText = '';
 
         let detailedInfo = `
-        <div id="detailsDiv" class="flex-col"><div class="character-image-div"><img class="character-image" src="${image}"></div><div class="detailed-info-name-div flex-row"><span class="item-tag">Name:</span><span class="name-value-span">${name}</span></div><div class="detailed-info-gender-div flex-row"><span class="item-tag">Gender:</span><span class="gender-value-span">${gender}</span></div><div class="detailed-info-height-div flex-row"><span class="item-tag">Height:</span><span class="height-value-span">${height}</span></div></div> `
+        <div id="detailsDiv" class="flex-col"><div class="character-image-div"><img class="character-image" src="${image}"></div><div class="detailed-info-name-div flex-row"><span class="item-tag">Name:</span><span class="name-value-span value-span">${name}</span></div><div class="detailed-info-gender-div flex-row"><span class="item-tag">Gender:</span><span class="gender-value-span value-span">${gender}</span></div><div class="detailed-info-height-div flex-row"><span class="item-tag">Height:</span><span class="height-value-span value-span">${height}</span></div></div> `
     
     if(deviceWidth < 600){
         $('#exampleModal').modal('show');
