@@ -115,7 +115,7 @@ h1,h2,h3,h4,h5{
 
 @media all and (max-width: 767px){
     .document-wrapper{
-        height: calc(100vh - 0px);
+        /* height: calc(100vh - 0px); */
     }
     .document-wrapper h1{
         margin: 1rem 0rem;
@@ -144,6 +144,10 @@ h1,h2,h3,h4,h5{
         align-items: center;
         cursor: pointer;
         margin: 0.5rem 0rem;
+    }
+    #resultDisplayDiv .item-div .name-span:hover{
+        background-color: black;
+        color: white;
     }
     #resultDisplayDiv .item-div .item-number-span{
         font-size: 1rem;
@@ -229,6 +233,10 @@ h1,h2,h3,h4,h5{
     #resultDisplayDiv .item-div{
         margin: 0.75rem 0rem;
         align-items: center;
+    }
+    #resultDisplayDiv .item-div .name-span:hover{
+        background-color: black;
+        color: white;
     }
     #resultDisplayDiv .item-div .item-number-span{
         margin: 0rem 1rem 0rem 0rem;
@@ -319,8 +327,13 @@ h1,h2,h3,h4,h5{
         justify-self: center;
     }
     #resultDisplayDiv .item-div{
-        margin: 0.875rem 0rem;
+        margin: 0.75rem 0rem;
         align-items: center;
+        cursor: pointer;
+    }
+    #resultDisplayDiv .item-div .name-span:hover{
+        background-color: black;
+        color: white;
     }
     #resultDisplayDiv .item-div .item-number-span{
         margin: 0rem 1rem 0rem 0rem;
@@ -330,7 +343,6 @@ h1,h2,h3,h4,h5{
         font-size: 1.5rem;
         font-weight: bold;
     }
-
     .result-display .details-wrapper{
         align-items: center;
         justify-content: center;
@@ -344,10 +356,10 @@ h1,h2,h3,h4,h5{
     #detailsDiv .character-image-div{
         height: 50%;
         justify-content: center;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
     #detailsDiv .character-image{
-        width: 90%;
+        width: 85%;
     }
 
     #detailsDiv .detailed-info-name-div{
