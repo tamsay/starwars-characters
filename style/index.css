@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5{
     font-size: 0rem;
 }
 .document-wrapper{
-    height: calc(100% - 0px);
+    height: calc(100vh - 0px);
 }
 .document-wrapper h1{
     font-weight: bold;
