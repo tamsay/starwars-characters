@@ -62,9 +62,8 @@ let createListItem = (index, characterName, gender, height, image) =>{
 }
 
     fetch(`https://swapi.dev/api/people/`)
-    .then(resp => resp.json())
-    .then(data =>{
-    console.log(data)
+        .then(resp => resp.json())
+        .then(data =>{
             displayResult(data)
-})
+        })
 

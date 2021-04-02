@@ -21,6 +21,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: white;
+    background-color: #E1E2EF;
     margin: 0;
     padding: 0;
     font-family:  'Roboto', 'sans-serif';
@@ -31,7 +32,6 @@ ol, ul {
 }
 .document-wrapper{
     max-width: 1440px;
-    /* padding: 0rem 0rem !important; */
     margin: 0;
     width: 100%;
     display: flex;
@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5{
     font-size: 0rem;
 }
 .document-wrapper{
-    height: calc(100vh - 0px);
+    /* height: calc(100vh - 0px); */
 }
 .document-wrapper h1{
     font-weight: bold;
